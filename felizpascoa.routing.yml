@@ -1,0 +1,6 @@
+feliz_pascoa:
+ path: /pascoa
+ defaults:
+  _controller: Drupal\felizpascoa\Controller\FelizPascoaController::felizpascoa
+ requirements:
+  _permission: 'access content'
